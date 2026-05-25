@@ -99,7 +99,7 @@ class WordTemplateFiller:
         original_xml, other_files = self._extract_docx_xml(self.template_bytes)
 
         # 提取通知数据
-        notification = json_data['structured_output']['structured_output']['notification']
+        notification = json_data['structured_output']['notification']
 
         # 创建数据映射
         data_map = {
